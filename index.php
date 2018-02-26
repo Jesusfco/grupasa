@@ -7,6 +7,7 @@
 	<title>Grupasa</title>
 
     <link href="styles/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
     <nav>
@@ -44,8 +45,8 @@
         
 
         
-        <div onclick="sliderBefore()" class="indicators ileft"><</div>
-        <div onclick="sliderNext()" class="indicators iright">></div>
+        <div onclick="sliderBefore()" class="indicators ileft"><i class="material-icons">chevron_left</i></div>
+        <div onclick="sliderNext()" class="indicators iright"><i class="material-icons">chevron_right</i></div>
         
 
         <div class="slider-circles">            
@@ -53,6 +54,8 @@
         </div>
 
     </div>
+
+    
 
     <div class="ubicacion" id="div-ubicacion">
         <h3>DONDE ENCONTRARNOS</h3>
@@ -62,7 +65,7 @@
             <div class="contact-data">
                 
                 <div>
-                    <h5>UBICACIÓN</h5>
+                    <h5>UBICACIÓN <i class="large material-icons">place</i></h5>
                     <p> Av. Central Oriente No. 683 <br>
                         Col. Centro C.P. 29000 <br>
                         Tuxtla Gutierrez, Chiapas.
@@ -70,7 +73,7 @@
                 </div>    
                 
                 <div>
-                    <h5>HORARIO</h5>
+                    <h5>HORARIO <i class="large material-icons">access_time</i></h5>
                     <p> LUNES A VIERNES <br>
                         9:00 - 20:00 Hrs. <br><br>
 
@@ -80,14 +83,14 @@
                 </div>
 
                 <div>
-                    <h5>TELEFONOS</h5>
+                    <h5>TELEFONOS <i class="large material-icons">local_phone</i></h5>
                     <p> TEL. (961) 6114818<<br>
                         (961) 6136232
                     </p>
                 </div>
 
                 <div>
-                    <h5>ESCRIBENOS</h5>
+                    <h5>ESCRIBENOS <i class="material-icons">mail</i></h5>
                     <p> <a href="mailto:grupasa.ventas@gmail.com">grupasa.ventas@gmail.com </a> </p>
                 </div>
             </div>
