@@ -1,11 +1,11 @@
 @font-face {
     font-family: f1;
-    src: url(../fonts/avantgarde-book.ttf);
+    src: url(fonts/avantgarde-book.ttf);
 }
 
 @font-face {
     font-family: f3;
-    src: url("../fonts/BebasKai.otf");
+    src: url("fonts/BebasKai.otf");
 }
 
 @font-face {
@@ -60,6 +60,9 @@ nav {
 .menu-links a {
     margin: 0px 8px;
     cursor: pointer;
+}
+.menu-links span {
+    color: #0D72ED;
 }
 
 @media screen and (max-width: 600px) {
