@@ -63,8 +63,6 @@ function selectImgSlider(img) {
         sliderCircleBasic();
     }
 
-
-
     button = 1;
 }
 
@@ -91,7 +89,6 @@ function sliderCircleBasicReturn() {
         $('.slider-circles div:nth-child(' + (sliderSelect + 2) + ')').removeClass('active');
     }
 }
-
 
 $(window).resize(function() {
     $('.slider-img').css('height', $('.slider-img div img').height());
