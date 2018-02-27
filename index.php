@@ -12,7 +12,7 @@
     <nav>
         <div class="nav-content">
             <div class="menu-logo">
-                <img src="img/logo.jpg">
+                <img src="img/logo.jpg" onclick="scrollTop2()">
             </div>
 
             <div class="menu-links">
@@ -20,7 +20,7 @@
                 <a>Productos</a> |
                 <a>Equipo</a> |
                 <a>Quienes Somos</a> |
-                <a>Contacto</a>
+                <a onclick="smoothScroll('ubicacion')">Ubicacion</a>
             </div>    
         </div>
     </nav>
@@ -54,7 +54,7 @@
 
     </div>
 
-    <div class="ubicacion">
+    <div class="ubicacion" id="div-ubicacion">
         <h3>DONDE ENCONTRARNOS</h3>
         <div class="subrayado"></div>
         <div class="ubicacion-content">
@@ -104,6 +104,7 @@
     <!-- SCRITPS -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="scripts/slider.js"></script>
+    <script src="scripts/menu.js"></script>
 <body>
 </body>
 </html>
