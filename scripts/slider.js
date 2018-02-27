@@ -54,7 +54,18 @@ function sliderBefore() {
 }
 
 function selectImgSlider(img) {
-    alert(img);
+
+    for (var x = 0; sliderSelect !== img; x++) {
+        $('.slider-img div:first-child').fadeOut(0)
+            .next('div').fadeIn(0)
+            .end().appendTo('.slider-img');
+
+        sliderCircleBasic();
+    }
+
+
+
+    button = 1;
 }
 
 function sliderCircleBasic() {
