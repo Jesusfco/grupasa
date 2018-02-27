@@ -27,21 +27,29 @@
 
     <div class="slider">
         <div class="slider-img">
-            <img src="img/slider1.jpg">
-            <!-- <img src="img/slider2.jpg"> -->
+
+            <div>
+                <img src="img/slider1.jpg">
+            </div>    
+            <div>
+                <img src="img/slider2.jpg">
+            </div>                
+            <div>
+                <img src="img/slider3.jpg">
+            </div>     
+            <div>
+                <img src="img/slider2.jpg">
+            </div>                 
         </div>
         
 
         
-            <div class="indicators ileft"><</div>
-            <div class="indicators iright">></div>
+            <div onclick="sliderBefore()" class="indicators ileft"><</div>
+            <div onclick="sliderNext()" class="indicators iright">></div>
         
 
-        <div class="slider-circles">
-            <div class="active"></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="slider-circles">            
+            
         </div>
 
     </div>
@@ -93,6 +101,9 @@
         <p>Aviso de privacidad</p>
     </footer>
 
+    <!-- SCRITPS -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="scripts/slider.js"></script>
 <body>
 </body>
 </html>

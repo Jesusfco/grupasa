@@ -1,3 +1,18 @@
+@font-face {
+    font-family: f1;
+    src: url(../fonts/avantgarde-book.ttf);
+}
+
+@font-face {
+    font-family: f3;
+    src: url("../fonts/BebasKai.otf");
+}
+
+@font-face {
+    font-family: f1;
+    src: url(../fonts/HPSimplified.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -46,18 +61,29 @@ nav {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    .menu-links {
+        display: none;
+    }
+}
+
 
 /* SLIDER */
 
 .slider {
     width: 100%;
-    margin-top: 120px;
+    margin-top: 100px;
     position: relative;
+}
+
+.slider-img {
+    height: 80vh;
+    overflow: hidden;
 }
 
 .slider-img img {
     width: 100%;
-    position: relative;
+    position: absolute;
     top: 0;
 }
 
@@ -110,8 +136,18 @@ nav {
     margin: 0 auto;
 }
 
-h3 {
+h3,
+h1,
+h2,
+h4,
+h5 {
     font-size: 40px;
+    font-family: f3;
+}
+
+p,
+a {
+    font-family: f1;
 }
 
 .subrayado {
@@ -120,6 +156,16 @@ h3 {
     background: rgb(3, 45, 73);
     display: block;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    h3 {
+        text-align: center;
+    }
+    .subrayado {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
 }
 
 .ubicacion iframe {
@@ -146,6 +192,25 @@ h3 {
 
 .contact-data p {
     font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .ubicacion {
+        width: 100%;
+    }
+    .ubicacion-content {
+        display: block;
+    }
+    .ubicacion iframe {
+        height: 408px;
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    .contact-data {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
