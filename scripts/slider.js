@@ -9,7 +9,7 @@ $(document).ready(function() {
             $(".slider-circles").append("<div onclick='selectImgSlider(" + x + ")'></div>");
     }
 
-    $('.slider-img').css('height', $('.slider-img div img').height());
+    // $('.slider-img').css('height', $('.slider-img div img').height());
 
     $('.slider-img div:gt(0)').hide();
 
@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 });
 
-var sliderCount = $(".slider-img div").length;
+var sliderCount = $(".slider-img #slider-piece").length;
 var sliderSelect = 0;
 var button = 0;
 
@@ -91,5 +91,5 @@ function sliderCircleBasicReturn() {
 }
 
 $(window).resize(function() {
-    $('.slider-img').css('height', $('.slider-img div img').height());
+    // $('.slider-img').css('height', $('.slider-img div img').height());
 });
