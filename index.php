@@ -7,6 +7,8 @@
 	<title>Grupasa</title>
 
     <link href="styles/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="styles/equipos.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="styles/nosotros.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -78,7 +80,7 @@
             <div class="contact-data">
                 
                 <div>
-                    <h5>UBICACIÓN <i class="large material-icons">place</i></h5>
+                    <h5><i class="material-icons">place</i>UBICACIÓN </h5>
                     <p> Av. Central Oriente No. 683 <br>
                         Col. Centro C.P. 29000 <br>
                         Tuxtla Gutierrez, Chiapas.
@@ -86,7 +88,7 @@
                 </div>    
                 
                 <div>
-                    <h5>HORARIO <i class="large material-icons">access_time</i></h5>
+                    <h5><i class="material-icons">access_time</i>HORARIO </h5>
                     <p> LUNES A VIERNES <br>
                         9:00 - 20:00 Hrs. <br><br>
 
@@ -96,20 +98,95 @@
                 </div>
 
                 <div>
-                    <h5>TELEFONOS <i class="large material-icons">local_phone</i></h5>
-                    <p> TEL. (961) 6114818<<br>
+                    <h5><i class="material-icons">local_phone</i>TELEFONOS </h5>
+                    <p> TEL. (961) 6114818<br>
                         (961) 6136232
                     </p>
                 </div>
 
                 <div>
-                    <h5>ESCRIBENOS <i class="material-icons">mail</i></h5>
+                    <h5><i class="material-icons">mail</i>ESCRIBENOS </h5>
                     <p> <a href="mailto:grupasa.ventas@gmail.com">grupasa.ventas@gmail.com </a> </p>
                 </div>
             </div>
         </div>
         
-    </div>   
+    </div>  
+    
+    <div class="ourProducts">
+        <h3>NUESTROS PRODUCTOS</h3>
+        <div class="subrayado"></div>
+
+        <div class="products-content">
+            <div class="productDiv s4">
+                <img src="img/menu/marco.jpg">
+                <div id="marcos">MARCOS</div>
+            </div>
+
+            <div class="productDiv s8">
+                <img src="img/menu/rasero.jpg">
+                <div id="raseros">RASEROS</div>
+            </div>
+
+            <div class="productDiv s4">
+                <img src="img/menu/papel.jpg">
+                <div id="papeles">PAPELES</div>
+            </div>
+
+            <div class="productDiv s8">
+                <img src="img/menu/tinta.jpg">
+                <div id="tintas">TINTAS</div>
+            </div>
+            
+            <!-- SEGUNDA SECCION DE PRODUCTOS -->
+
+            <div class="productDiv s4 sello">
+                <img src="img/menu/sello.jpg">
+                <div id="marcos">SELLOS</div>
+            </div>
+
+            <div class="s8 finalProduct">
+            
+                <div class="pro2 productDiv sello">
+                    <img src="img/menu/vinil.jpg">
+                    <div id="raseros">VINILES</div>
+                </div>
+
+                <div class=" pro2 productDiv sello">
+                    <img src="img/menu/encuadernacion.jpg">
+                    <div id="raseros">ENCUADERNACIÓN</div>
+                </div>
+
+            </div>
+            
+
+        </div>
+
+    </div>
+    
+    <div>
+        <h3>EQUIPOS</h3>
+        <div class="subrayado"></div>
+
+        <div class="equipo-content">
+
+            <div class="equipo-card">
+                <div class="img" style="background-image: url(img/equipos/pulpo.jpg)"></div> 
+                <div class="box">PULPOS</div>
+            </div>
+
+            <div class="equipo-card">
+                <div class="img" style="background-image: url(img/equipos/plancha.jpg)"></div>
+                <div class="box">PLANCHAS</div>
+            </div>
+
+            <div class="equipo-card">
+                <div class="img" style="background-image: url(img/equipos/rack.jpg)"></div>
+                <div class="box">RACKS</div>
+            </div>
+
+        </div>
+    </div>
     
     
 
