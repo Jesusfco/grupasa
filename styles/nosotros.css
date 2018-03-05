@@ -1,0 +1,21 @@
+.quienes-content {
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.quienes-content s4 {
+    width: 40%;
+}
+
+.quienes-content s8 {
+    width: 60%;
+}
+
+.quienes-content s8 div {}
+
+.quienes-content s8 div {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
