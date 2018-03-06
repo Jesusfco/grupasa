@@ -35,6 +35,14 @@
 .sliderText {
     margin-right: 15%;
     text-align: center;
+    transition: all .8s;
+}
+
+.sliderText:hover {}
+
+.sliderTextAnimation {
+    transform: translate(100%, 0);
+    opacity: 0;
 }
 
 .sliderText div {
