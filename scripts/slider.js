@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 
 
-    $('#slider-piece:gt(0)').hide();
+    $('.slider-img #slider-piece:gt(0)').hide();
 
     setInterval(function() {
 
@@ -24,8 +24,8 @@ var button = 0;
 function slider() {
     if (button === 0) {
         sliderCircleBasic();
-        $('.slider-img #slider-piece:nth-child(1)').fadeOut(1000)
-            .next('div').fadeIn(1000)
+        $('#slider-piece:first-child').fadeOut(1000)
+            .next('#slider-piece').fadeIn(1000)
             .end().appendTo('.slider-img');
 
 
