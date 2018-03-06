@@ -1,19 +1,17 @@
 $(document).ready(function() {
 
-
-
-
     for (var x = 0; x < sliderCount; x++) {
         if (x == 0) $(".slider-circles").append("<div class='active' onclick='selectImgSlider(" + x + ")'></div>");
         else
             $(".slider-circles").append("<div onclick='selectImgSlider(" + x + ")'></div>");
     }
 
-    // $('.slider-img').css('height', $('.slider-img div img').height());
 
-    $('.slider-img div:gt(0)').hide();
+
+    $('#slider-piece:gt(0)').hide();
 
     setInterval(function() {
+
         slider();
     }, 6000);
 
@@ -26,7 +24,7 @@ var button = 0;
 function slider() {
     if (button === 0) {
         sliderCircleBasic();
-        $('.slider-img div:nth-child(1)').fadeOut(1000)
+        $('.slider-img #slider-piece:nth-child(1)').fadeOut(1000)
             .next('div').fadeIn(1000)
             .end().appendTo('.slider-img');
 
@@ -38,8 +36,8 @@ function slider() {
 
 function sliderNext() {
     sliderCircleBasic();
-    $('.slider-img div:first-child').fadeOut(500)
-        .next('div').fadeIn(500)
+    $('.slider-img #slider-piece:first-child').fadeOut(500)
+        .next('#slider-piece').fadeIn(500)
         .end().appendTo('.slider-img');
     button = 1;
 
@@ -47,8 +45,8 @@ function sliderNext() {
 
 function sliderBefore() {
     sliderCircleBasicReturn();
-    $('.slider-img div:last-child').prependTo('.slider-img').fadeIn(500);
-    $('.slider-img div:nth-child(2)').fadeOut();
+    $('.slider-img #slider-piece:last-child').prependTo('.slider-img').fadeIn(500);
+    $('.slider-img #slider-piece:nth-child(2)').fadeOut();
 
     button = 1;
 }
@@ -56,8 +54,8 @@ function sliderBefore() {
 function selectImgSlider(img) {
 
     for (var x = 0; sliderSelect !== img; x++) {
-        $('.slider-img div:first-child').fadeOut(0)
-            .next('div').fadeIn(0)
+        $('.slider-img #slider-piece:first-child').fadeOut(0)
+            .next('#slider-piece').fadeIn(0)
             .end().appendTo('.slider-img');
 
         sliderCircleBasic();

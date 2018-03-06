@@ -1,7 +1,7 @@
 function smoothScroll(name) {
     var posicion = $("#div-" + name).offset().top;
     $("html, body").animate({
-        scrollTop: posicion - 100
+        scrollTop: posicion - 80
     }, 750);
 }
 
