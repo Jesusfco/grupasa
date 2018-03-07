@@ -12,6 +12,7 @@ nav div {
 
 nav i {
     font-size: 50px !important;
+    color: black !important;
 }
 
 ul {
@@ -35,12 +36,25 @@ ul {
     height: 100%;
 }
 
-.information-container {}
-
-.information {
-    padding-top: 100px;
+.information-container {
+    display: flex;
+    align-items: center;
 }
+
+.information {}
 
 .information h2 {
     font-size: 75px;
+}
+
+.information h5 {
+    font-size: 25px;
+    color: black;
+}
+
+.information .border {
+    display: block;
+    width: 50px;
+    background: black;
+    height: 2px;
 }

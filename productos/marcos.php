@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-	<title>Grupasa</title>
+	<title>Grupasa Producto Marcos</title>
 
     <link href="../styles/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     
@@ -17,10 +17,13 @@
         
         <div>
             <h1>NUESTROS PRODUCTOS</h1>
+            <div class="subrayado"></div>
         </div>
 
-        <div>        
-            <i class="material-icons">home</i>
+        <div>    
+            <a href="../">    
+                <i class="material-icons">home</i>
+            </a>    
         </div>
     </nav>
 
@@ -39,6 +42,7 @@
 
                     <div>
                         <h5>Hilos</h5>
+                        <div class="border"></div>
                         <ul>
                             <li>62</li>
                             <li>90</li>
@@ -48,6 +52,7 @@
 
                     <div>
                         <h5>Medidas</h5>
+                        <div class="border"></div>
                         <ul>
                             <li>20x30 cm.</li>
                             <li>30x40 cm.</li>
