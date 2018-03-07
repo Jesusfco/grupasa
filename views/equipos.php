@@ -1,6 +1,9 @@
-<div id="div-equipos">
+
+<div class="scrollMargin" id="div-equipos">
+    <div class="title">
         <h3>EQUIPOS</h3>
         <div class="subrayado"></div>
+    </div>    
 
         <div class="equipo-content">
 

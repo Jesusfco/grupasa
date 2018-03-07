@@ -1,6 +1,8 @@
-<div id="div-quienes">
+<div class="scrollMargin" id="div-quienes">
+    <div class="title">
         <h3>QUIENES SOMOS</h3>
         <div class="subrayado"></div>
+    </div>    
 
         <div class="quienes-content">
 

@@ -72,16 +72,6 @@ nav {
     }
 }
 
-
-/* UBICACION */
-
-.ubicacion {
-    width: 80%;
-    max-width: 1200px;
-    display: block;
-    margin: 0 auto;
-}
-
 h3,
 h1,
 h2,
@@ -104,12 +94,28 @@ a {
     font-family: f1;
 }
 
+.title {
+    margin-left: 80px;
+    display: block;
+}
+
 .subrayado {
     height: 2px;
     width: 180px;
     background: rgb(3, 45, 73);
     display: block;
     margin-bottom: 10px;
+}
+
+.scrollMargin {
+    margin-top: 45px;
+}
+
+#scrollBug {
+    position: relative;
+    top: -80px;
+    height: 80px;
+    z-index: -20;
 }
 
 @media screen and (max-width: 600px) {
@@ -120,131 +126,4 @@ a {
         margin: 0 auto;
         margin-bottom: 10px;
     }
-}
-
-.ubicacion iframe {
-    height: 408px;
-    width: 70%;
-    display: block;
-    position: relative;
-}
-
-.ubicacion-content {
-    width: 100%;
-    display: flex;
-}
-
-.contact-data {
-    width: 30%;
-    padding: 0 20px;
-}
-
-.contact-data div h5 {
-    font-size: 30px;
-    margin-bottom: 5px;
-}
-
-.contact-data p {
-    font-size: 20px;
-}
-
-@media screen and (max-width: 600px) {
-    .ubicacion {
-        width: 100%;
-    }
-    .ubicacion-content {
-        display: block;
-    }
-    .ubicacion iframe {
-        height: 408px;
-        width: 100%;
-        display: block;
-        position: relative;
-    }
-    .contact-data {
-        width: 100%;
-        text-align: center;
-        padding: 20px 0px;
-    }
-}
-
-
-/* NUESTROS PRODUCTOS */
-
-.ourProducts {}
-
-.products-content {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 200vh;
-}
-
-.productDiv {
-    height: 25%;
-    overflow: hidden;
-    position: relative;
-}
-
-.sello {
-    height: 50%;
-}
-
-.productDiv img {
-    width: 100%;
-    display: block;
-    z-index: 1;
-    transition: .4s;
-}
-
-.productDiv:hover img {
-    transform: scale(1.1);
-}
-
-.productDiv div {
-    position: absolute;
-    z-index: 2;
-    padding: 10px;
-    font-family: f3;
-    border: 5px solid #000000;
-    font-size: 50px;
-}
-
-.finalProduct {
-    display: flex;
-    flex-wrap: wrap;
-    height: 50%;
-}
-
-.pro2 {
-    height: 50% !important;
-    width: 100%;
-}
-
-.s4 {
-    width: 33%;
-}
-
-.s8 {
-    width: 67%;
-}
-
-#marcos {
-    bottom: 20px;
-    right: 20px;
-}
-
-#raseros {
-    bottom: 20px;
-    left: 20px;
-}
-
-#papeles {
-    top: 20px;
-    right: 20px;
-}
-
-#tintas {
-    top: 20px;
-    left: 20px;
 }

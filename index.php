@@ -8,6 +8,7 @@
 
     <link href="styles/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="styles/slider.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="styles/productos.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="styles/equipos.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="styles/nosotros.css" type="text/css" rel="stylesheet" media="screen,projection">
     

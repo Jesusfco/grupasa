@@ -1,8 +1,9 @@
-<div class="ubicacion" id="div-ubicacion">
+
+<div class="ubicacion scrollMargin" id="div-ubicacion">
         <h3>DONDE ENCONTRARNOS</h3>
         <div class="subrayado"></div>
         <div class="ubicacion-content">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.42208021792084!2d-93.11144935150887!3d16.75275389595888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x885e4e152160edb6!2sGrupasa!5e0!3m2!1ses!2smx!4v1519228009513" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.353655683734!2d-93.11325445772776!3d16.753365152608303!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x885e4e152160edb6!2sGrupasa!5e0!3m2!1ses!2smx!4v1520364397110" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             <div class="contact-data">
                 
                 <div>
