@@ -65,8 +65,10 @@
         </div>
 
         <footer>
-            <h2>TODO EN UN SOLO</h2>
-            <h1>LUGAR<h1>
+            <div class="slogan">
+                <h2>TODO EN UN SOLO</h2>
+                <h1>LUGAR<h1>
+            </div>        
             <p>Aviso de privacidad</p>
         </footer>
 

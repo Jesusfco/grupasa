@@ -43,7 +43,7 @@ nav {
 
 .menu-logo {
     display: inline-block;
-    width: auto;
+    width: ;
 }
 
 .menu-logo img {
@@ -69,6 +69,12 @@ nav {
 @media screen and (max-width: 600px) {
     .menu-links {
         display: none;
+    }
+    .nav-content {
+        justify-content: center;
+    }
+    .title {
+        margin: 0 !important;
     }
 }
 

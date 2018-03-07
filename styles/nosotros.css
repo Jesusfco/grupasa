@@ -4,18 +4,36 @@
     margin: 0 auto;
 }
 
-.quienes-content s4 {
+.quienes-content .s4 {
     width: 40%;
 }
 
-.quienes-content s8 {
+.quienes-content .s8 {
     width: 60%;
 }
 
-.quienes-content s8 div {}
+.quienes-content .s8 img {
+    width: 100%;
+}
 
-.quienes-content s8 div {
+.quienes-content .s8 div {}
+
+.quienes-content .s8 div {
     height: 100%;
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+    .quienes-content {
+        display: inherit;
+        width: 90%
+    }
+    .quienes-content .s4 {
+        width: 100%;
+        text-align: center;
+    }
+    .quienes-content .s8 {
+        width: 100%;
+    }
 }

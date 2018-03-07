@@ -35,6 +35,7 @@
 
 @media screen and (max-width: 600px) {
     .ubicacion {
+        display: block;
         width: 100%;
     }
     .ubicacion-content {

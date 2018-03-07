@@ -24,7 +24,24 @@
             <img src="img/menu/tinta.jpg">
             <div id="tintas">TINTAS</div>
         </div>
+
+        <div class="productDiv mov">
+            <img src="img/menu/sello.jpg">
+            <div id="marcos">SELLOS</div>
+        </div>
+
+        <div class="productDiv mov">
+            <img src="img/menu/vinil.jpg">
+            <div id="raseros">VINILES</div>
+        </div>
+
+        <div class="productDiv mov">
+            <img src="img/menu/encuadernacion.jpg">
+            <div id="raseros">ENCUADERNACIÓN</div>
+        </div>
     </div>  
+
+    
 
 </div>    
             
