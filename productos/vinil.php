@@ -27,6 +27,29 @@
         </div>
     </nav>
 
+    <style type="text/css">
+    	.color-container {
+    		display: flex;
+    		flex-wrap: wrap;
+    		max-width: 400px
+    	}
+
+    	.color-piece{
+    		width: 25%;
+    		padding: 20px 10px;
+    		text-align: center;
+    	}
+
+    	.color-piece div {
+    		margin: 0 auto;
+    		border-radius: 50%;
+    		height: 80px;
+    		width: 80px;
+    		display: block;
+    	}
+
+    	
+    </style>
     <div class="productContainer">
 
         <div class="imgBackground" >
@@ -36,30 +59,58 @@
         <div class="information-container">
 
             <div class="information">
-                <h2>Viniles</h2>
+                <h2>Vinil</h2>
                 <p>Vinil de rotulación Avery 500 Event</p>
                 <div>
 
                     <div>
                         <h5>Colores</h5>
                         <div class="border"></div>
-                        <ul>
-                            <li>62</li>
-                            <li>90</li>
-                            <li>120</li>
-                        </ul>
+                        <div class="color-container">
+
+                        	<div class="color-piece">
+                        		<div style="background: green"></div>
+                        		<p>Verde</p>
+                        	</div>
+
+                        	<div class="color-piece">
+                        		<div style="background: orange"></div>
+                        		<p>Naranja</p>
+                        	</div>
+
+                        	<div class="color-piece">
+                        		<div style="background: blue"></div>
+                        		<p>Azul</p>
+                        	</div>
+                        	
+                        	<div class="color-piece">
+                        		<div style="background: yellow"></div>
+                        		<p>Amarillo</p>
+                        	</div>
+
+                        	<div class="color-piece">
+                        		<div style="background: grey"></div>
+                        		<p>Gris</p>
+                        	</div>
+                        	
+                        	<div class="color-piece">
+                        		<div style="background: black"></div>
+                        		<p>Negro</p>
+                        	</div>
+
+                        	<div class="color-piece">
+                        		<div style="background: brown"></div>
+                        		<p>Café</p>
+                        	</div>
+                        	
+                        	<div class="color-piece">
+                        		<div style="background: red"></div>
+                        		<p>Rojo</p>
+                        	</div>
+                        </div>
                     </div>
 
-                    <div>
-                        <h5>Medidas</h5>
-                        <div class="border"></div>
-                        <ul>
-                            <li>20x30 cm.</li>
-                            <li>30x40 cm.</li>
-                            <li>40x50 cm.</li>
-                            <li>50x60 cm.</li>
-                        </ul>
-                    </div>
+           
 
                 </div>
             </div>
