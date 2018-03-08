@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-	<title>Grupasa Equipo Planchas</title>
+  <title>Grupasa Equipo Planchas</title>
 
     <link href="../styles/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     
@@ -16,7 +16,7 @@
     <nav>
         
         <div>
-            <h1>PULPOS</h1>
+            <h1>PLANCHAS</h1>
             <div class="subrayado"></div>
         </div>
 
@@ -42,7 +42,6 @@
             width: 33.333%
         }
 
-
         .piece {
             height: 50%;
             text-align: center;
@@ -52,7 +51,7 @@
 
         }
         .equipoContainer div img {
-            height: 100%;
+            width: 100%;
             display: block;
             position: absolute;
         }
@@ -69,76 +68,50 @@
         .nameEquip h3, .nameEquip p {
             text-shadow: 2px 2px 4px white;
         }
-
-      .flexColum{
-        display: flex;
-        flex-direction: column;
-      }
-        .s60{
-          width: 60%;
-          height: 100%;
-        }
-
-        .s40 {
-           height: 100%;
-           width: 40%;
-        }
-
-        .s40 .piece img {
-          /*height: 100%;
-          width: inherit;*/
-        }
     </style>
     <div class="equipoContainer">
 
-       <div class="flexColum s60">
        
-         <div class="piece">
-           <img src="../img/planchas//1.jpg">
+
+       <div class="piece s4">
+           <img src="../img/pulpos/1.jpg">
             <div class="nameEquip">
-               <h3>PLANCHA CON TEFLÓN</h3>
-               <p>40 cm x 50 cm.</p>
+               <h3>PULPO 1 CON 1</h3>
+               <p>Pulpo de 1 tinta <br> con 1 estación portátil <br> de metal </p>
             </div>
-         </div>
-
-         <div class="piece">
-             <img src="../img/planchas/2.jpg">
-              <div class="nameEquip">
-                <h3>PLANCHA CON NEOPRENO</h3>
-                <p>40 cm x 50 cm.</p>
-              </div>
-         </div>
-
        </div>
 
-       <div class="flexColum s40">
-         
-        <div class="piece">
-             <img src="../img/planchas/3.jpg">
-              <div class="nameEquip">
-                <h3>PLANCHA CON NEOPRENO</h3>
-                <p>40 cm x 50 cm.</p>
-              </div>
-         </div>
-
-         <div class="piece">
-             <img src="../img/planchas/4.jpg">
-              <div class="nameEquip">
-                <h3>PLANCHA CON NEOPRENO</h3>
-                <p>40 cm x 50 cm.</p>
-              </div>
-         </div>
-
-         <div class="piece">
-             <img src="../img/planchas/5.jpg">
-              <div class="nameEquip">
-                <h3>PLANCHA CON NEOPRENO</h3>
-                <p>40 cm x 50 cm.</p>
-              </div>
-         </div>
-
+       <div class="piece s4">
+            <img src="../img/pulpos/2.jpg">
+            <div class="nameEquip">
+               <h3>PULPO 4 CON 1</h3>
+               <p>Pulpo de 4 tintas <br> con 1 estación fija con <br>banco tradicional</p>
+            </div>
        </div>
 
+       <div class="piece s4">
+           <img src="../img/pulpos/3.jpg">
+            <div class="nameEquip">
+               <h3>PULPO 6 CON 1</h3>
+               <p>Pulpo de 6 tintas <br> con 1 estación fija con <br>banco tradicional</p>
+           </div>
+       </div>
+
+       <div class="piece s6">
+           <img src="../img/pulpos/4.jpg">
+           <div class="nameEquip">
+                <h3>PULPO 6 CON 2</h3>
+                <p>Pulpo de 6 tintas <br> con 2 estaciones fijas con <br> banco tradicional</p>
+            </div>
+       </div>
+
+       <div class="piece s6">
+           <img src="../img/pulpos/5.jpg">
+           <div class="nameEquip">
+                <h3>PULPO 6 CON 2</h3>
+                <p>Pulpo de 6 tintas <br> con 2 estaciones rotativas con <br> banco tradicional</p>
+            </div>
+       </div>
 
     </div>
 

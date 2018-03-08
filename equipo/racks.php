@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-	<title>Grupasa Producto Pulpos</title>
+	<title>Grupasa Producto Racks</title>
 
     <link href="../styles/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     
@@ -16,7 +16,7 @@
     <nav>
         
         <div>
-            <h1>PULPOS</h1>
+            <h1>Racks</h1>
             <div class="subrayado"></div>
         </div>
 
@@ -32,7 +32,7 @@
             display: flex;
             width: 100%;
             height: 100vh; 
-            flex-wrap: wrap;
+            /*flex-wrap: wrap;*/
         }
 
         .equipoContainer .s6 {
@@ -43,17 +43,20 @@
         }
 
         .piece {
-            height: 50%;
+          width: 50%;
+            height: 100%;
             text-align: center;
             position: relative;
             overflow: hidden;
             border: 1px ;
+            display: block;
 
         }
         .equipoContainer div img {
-            width: 100%;
+            height: 100%;
             display: block;
-            position: absolute;
+            /*position: absolute;*/
+            margin: 0 auto;
         }
 
         .nameEquip{
@@ -73,45 +76,23 @@
 
        
 
-       <div class="piece s4">
-           <img src="../img/pulpos/1.jpg">
+       <div class="piece ">
+           <img src="../img/racks/1.jpg">
             <div class="nameEquip">
-               <h3>PULPO 1 CON 1</h3>
-               <p>Pulpo de 1 tinta <br> con 1 estación portátil <br> de metal </p>
+               <h3>RACKS DE 25 CHAROLAS</h3>
+               <p>40 cm x 50 cm.</p>
             </div>
        </div>
 
-       <div class="piece s4">
-            <img src="../img/pulpos/2.jpg">
+       <div class="piece ">
+            <img src="../img/racks/2.jpg">
             <div class="nameEquip">
-               <h3>PULPO 4 CON 1</h3>
-               <p>Pulpo de 4 tintas <br> con 1 estación fija con <br>banco tradicional</p>
+               <h3>RACKS DE 50 CHAROLAS</h3>
+               <p>40 cm x 50 cm.</p>
             </div>
        </div>
 
-       <div class="piece s4">
-           <img src="../img/pulpos/3.jpg">
-            <div class="nameEquip">
-               <h3>PULPO 6 CON 1</h3>
-               <p>Pulpo de 6 tintas <br> con 1 estación fija con <br>banco tradicional</p>
-           </div>
-       </div>
-
-       <div class="piece s6">
-           <img src="../img/pulpos/4.jpg">
-           <div class="nameEquip">
-                <h3>PULPO 6 CON 2</h3>
-                <p>Pulpo de 6 tintas <br> con 2 estaciones fijas con <br> banco tradicional</p>
-            </div>
-       </div>
-
-       <div class="piece s6">
-           <img src="../img/pulpos/5.jpg">
-           <div class="nameEquip">
-                <h3>PULPO 6 CON 2</h3>
-                <p>Pulpo de 6 tintas <br> con 2 estaciones rotativas con <br> banco tradicional</p>
-            </div>
-       </div>
+       
 
     </div>
 
