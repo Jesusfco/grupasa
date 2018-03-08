@@ -11,6 +11,10 @@ nav {
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
 }
 
+nav .icon {
+    display: none;
+}
+
 .nav-content {
     height: 100%;
     width: 85%;
@@ -45,7 +49,75 @@ nav {
     color: #0D72ED;
 }
 
+.movMenu {
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
+    nav .icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    nav .icon i {
+        font-size: 40px !important;
+    }
+    .movMenu .icon {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .movMenu .icon i {
+        /* color: white; */
+        font-size: 40px !important;
+    }
+    .movMenu {
+        padding-top: 65px;
+        display: block;
+        /* color: white; */
+        width: 230px;
+        background: white;
+        height: 100vh;
+        right: 0;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+        transition: all .55s;
+    }
+    .movMenu {
+        transform: translate(110%, 0);
+    }
+    .movMenu.active {
+        transform: translate(0, 0);
+    }
+    .movMenu ul {
+        list-style-type: none;
+    }
+    .movMenu li {
+        width: 100%;
+        padding: 10px 15px;
+        border-top: 1px solid rgb(194, 192, 192);
+        transition: .4s;
+    }
+    .movMenu li:hover {
+        color: white;
+        background: rgb(0, 162, 255)
+    }
+    .movLogo {
+        position: absolute;
+        bottom: 80px;
+        width: 100%;
+    }
+    .movLogo img {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+    }
     .menu-links {
         display: none;
     }

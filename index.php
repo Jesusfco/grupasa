@@ -29,9 +29,32 @@
                 <a onclick="smoothScroll('equipos')">Equipo</a> <span>|</span>
                 <a onclick="smoothScroll('quienes')">Quienes Somos</a> <span>|</span>
                 <a onclick="smoothScroll('ubicacion')">Ubicacion</a>
-            </div>    
+            </div> 
+
+            <div class="icon" onclick="openMenu()">    
+                <i class="material-icons">menu</i>
+            </div>
+
         </div>
     </nav>
+
+    <div class="movMenu">
+        <div class="icon"onclick="closeMenu()">    
+            <i class="material-icons">close</i>
+        </div>
+        <ul>
+            <li onclick="scrollMov('productos')">Inicio</li>
+            <li onclick="scrollMov('productos')">Productos</li>
+            <li onclick="scrollMov('equipos')">Equipo</li>
+            <li onclick="scrollMov('quienes')">Quienes Somos</li>
+            <li onclick="scrollMov('ubicacion')">Ubicación</li>
+        </ul>
+
+        <div class="movLogo">
+            <img src="img/logo.jpg" onclick="scrollTop2()">
+        </div>
+        
+    </div>
 
     
     <?php 
