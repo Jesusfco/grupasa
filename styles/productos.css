@@ -22,6 +22,10 @@
     height: 100vh;
 }
 
+.products3{
+    height: 100vh !important;
+}
+
 .productDiv {
     height: 50%;
     overflow: hidden;

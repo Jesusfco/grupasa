@@ -8,8 +8,8 @@
                 
                 <div>
                     <h5><i class="material-icons">place</i>UBICACIÓN </h5>
-                    <p> Av. Central Oriente No. 683 <br>
-                        Col. Centro C.P. 29000 <br>
+                    <p> Av. Central Oriente No. 684 <br>
+                        Col. Centro C.P. 29000 Planta Alta <br>
                         Tuxtla Gutierrez, Chiapas.
                     </p>
                 </div>    
@@ -17,23 +17,21 @@
                 <div>
                     <h5><i class="material-icons">access_time</i>HORARIO </h5>
                     <p> LUNES A VIERNES <br>
-                        9:00 - 20:00 Hrs. <br><br>
+                        9:00 - 18:00 Hrs. <br><br>
 
                         SÁBADOS <br>
-                        9:00 - 16:00 Hrs.
+                        9:00 - 14:00 Hrs.
                     </p>
                 </div>
 
                 <div>
                     <h5><i class="material-icons">local_phone</i>TELEFONOS </h5>
-                    <p> TEL. (961) 6114818<br>
-                        (961) 6136232
-                    </p>
+                    <p> TEL. (961) 6114818 </p>
                 </div>
 
                 <div>
                     <h5><i class="material-icons">mail</i>ESCRIBENOS </h5>
-                    <p> <a href="mailto:grupasa.ventas@gmail.com">grupasa.ventas@gmail.com </a> </p>
+                    <p> <a href="mailto:grupasa.ventas@gmail.com">ventas@grupasa.com.mx </a> </p>
                 </div>
             </div>
         </div>

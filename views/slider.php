@@ -5,9 +5,9 @@
                 <div class="img" style=" background-image: url(img/slider/1.jpg)">
 
                 <div class="sliderText">
-                        <h3>GORRAS PARA <br> SUBLIMAR </h3>
-                        <div>$26.60</div>
-                        <p> IVA incluido</p>
+                        <div>GORRAS PARA <br> SUBLIMAR </div>
+                        <!-- <div>$26.60</div> -->
+                        <!-- <p> IVA incluido</p> -->
                     </div> 
                     
                 </div> 
@@ -31,9 +31,9 @@
                 <div class="img" style=" background-image: url(img/slider/3.jpg)">
                 
                     <div class="sliderText">
-                        <h3>TAZAS PARA <br> SUBLIMAR </h3>
-                        <div>$18.00</div>
-                        <p> desde una pieza <br> IVA incluido</p>
+                        <div>TAZAS PARA <br> SUBLIMAR </div>
+                        <!-- <div>$18.00</div> -->
+                        <!-- <p> desde una pieza <br> IVA incluido</p> -->
                     </div> 
                     
 
