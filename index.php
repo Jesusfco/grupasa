@@ -25,7 +25,19 @@
 
             <div class="menu-links">
                 <a>Promociones</a> <span>|</span>
-                <a onclick="smoothScroll('productos')">Productos</a>  <span>|</span>
+                
+                <a onclick="smoothScroll('productos')" class="linkProduct">
+                    <span>Productos</span>
+                    <div class="productsOption">
+                        <div>
+                            <p>Serigrafía</p>
+                            <p>Sublimación</p>
+                            <p>Sellos</p>
+                            <p>Viniles</p>
+                            <p>Encuadernación</p>
+                        </div>    
+                    </div>  
+                </a>  <span>|</span>
                 <a onclick="smoothScroll('equipos')">Equipo</a> <span>|</span>
                 <a onclick="smoothScroll('quienes')">Quienes Somos</a> <span>|</span>
                 <a onclick="smoothScroll('ubicacion')">Ubicación</a>

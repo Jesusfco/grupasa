@@ -43,6 +43,30 @@
 
     
 
+</div>   
+
+<div class="products-content products3" >
+        
+        <div class="productDiv s4" onclick="window.location.replace('productos/marcos.php')">
+            <img src="img/menu/gorra.jpg">
+            <div id="marcos">GORRAS</div>
+        </div>
+
+        <div class="productDiv s8" onclick="window.location.replace('productos/raseros.php')">
+            <img src="img/menu/tintas-y-mas.jpg">
+            <div id="raseros">TINTAS Y MAS</div>
+        </div>
+
+        <div class="productDiv s4 menu-links"  style="background: #cacaca">
+            
+            
+        </div>
+
+        <div class="productDiv s8" onclick="window.location.replace('productos/tintas.php')">
+            <img src="img/menu/taza.jpg">
+            <div id="tintas">TAZAS</div>
+        </div>        
+        
 </div>    
             
             <!-- SEGUNDA SECCION DE PRODUCTOS -->
@@ -72,26 +96,3 @@
     
 </div>  
 
-<div class="products-content products3" >
-        
-        <div class="productDiv s4" onclick="window.location.replace('productos/marcos.php')">
-            <img src="img/menu/gorra.jpg">
-            <div id="marcos">GORRAS</div>
-        </div>
-
-        <div class="productDiv s8" onclick="window.location.replace('productos/raseros.php')">
-            <img src="img/menu/tintas-y-mas.jpg">
-            <div id="raseros">TINTAS Y MAS</div>
-        </div>
-
-        <div class="productDiv s4 menu-links"  style="background: #cacaca">
-            
-            
-        </div>
-
-        <div class="productDiv s8" onclick="window.location.replace('productos/tintas.php')">
-            <img src="img/menu/taza.jpg">
-            <div id="tintas">TAZAS</div>
-        </div>        
-        
-</div>   
