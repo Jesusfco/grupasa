@@ -15,7 +15,7 @@
             <div id="raseros">RASEROS</div>
         </div>
 
-        <div class="productDiv s4" >
+        <div class="productDiv s4" onclick="window.location.replace('productos/papel.php')">
             <img src="img/menu/papel.jpg">
             <div id="papeles">PAPELES</div>
         </div>
