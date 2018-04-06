@@ -61,6 +61,7 @@
             <div class="information">
                 <h2>Vinil</h2>
                 <p>Vinil de rotulación Avery 500 Event</p>
+				<img src="../img/logoBote.png" width="35px">
                 <div>
 
                     <div>

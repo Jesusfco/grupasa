@@ -40,6 +40,7 @@
                 <p>Sellos autoentitables de placa, Autoentintable<br>
                     fechador y de bolsillo  
                 </p>
+                <img src="../img/logoBote.png" width="35px">
 
                 <div style="display: flex">
 

@@ -38,6 +38,7 @@
             <div class="information">
                 <h2>ENCUADERNACIÓN</h2>
                 <p>Material para encuadernación</p>
+                <img src="../img/logoBote.png" width="35px">
                 <div>
 
                     <div>

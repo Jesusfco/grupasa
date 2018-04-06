@@ -57,6 +57,7 @@
 
             <div class="information">
                 <h2>TINTAS</h2>
+                <img src="../img/logoBote.png" width="35px">
                 
 
             <table>

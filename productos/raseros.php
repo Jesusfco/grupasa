@@ -38,6 +38,7 @@
             <div class="information">
                 <h2>RASEROS</h2>
                 <p>Rasero de madera-aluminio para serigrafía</p>
+                <img src="../img/logoBote.png" width="35px">
                 <div>
 
                     

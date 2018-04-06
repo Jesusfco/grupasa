@@ -36,9 +36,9 @@
         <div class="information-container">
 
             <div class="information">
-                <h2>Papel</h2>
+                <h2>PAPELES</h2>
                 <p>Paquetes de 100 piezas</p>
-                <img src="../img/logoBote.png" width="45px">
+                <img src="../img/logoBote.png" width="35px">
 
                 <div class="tableP">
                     <div>8.5X11 Pul</div>
@@ -128,6 +128,14 @@
             display: flex;
             text-align: center;
             flex-grow: all;
+            flex-wrap: wrap ;
+            font-size: 12px;
+            padding: 5px 3px;
+        }
+
+        .tableP div {
+            width: 33.333%;
+            padding: 0px 3px;
         }
 
         .tableP div p {

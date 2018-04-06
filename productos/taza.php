@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-	<title>Grupasa Producto Marcos</title>
+	<title>Grupasa Producto Raseros</title>
 
     <link href="../styles/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     
@@ -30,44 +30,43 @@
     <div class="productContainer">
 
         <div class="imgBackground" >
-            <img src="../img/products/marcos.jpg">
+            <img src="../img/products/taza.jpg">
         </div>
 
         <div class="information-container">
 
             <div class="information">
-                <h2>Marcos</h2>
-                <p>Marco de madera con malla amarilla</p>
+                <h2>TAZAS</h2>
+                <p>Taza Blanca de Ceramica para sublimar 11 Oz.</p>
                 <img src="../img/logoBote.png" width="35px">
-                <div>
 
-                    <div>
-                        <h5>Hilos</h5>
-                        <div class="border"></div>
-                        <ul>
-                            <li>62</li>
-                            <li>90</li>
-                            <li>120</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h5>Medidas</h5>
-                        <div class="border"></div>
-                        <ul>
-                            <li>20x30 cm.</li>
-                            <li>30x40 cm.</li>
-                            <li>40x50 cm.</li>
-                            <li>50x60 cm.</li>
-                        </ul>
-                    </div>
-
-                </div>
+               
             </div>
 
         </div>
 
     </div>
+
+    <style>
+        .tableP {
+            border-top: 1px solid black;
+            display: flex;
+            text-align: center;
+            flex-grow: all;
+            flex-wrap: wrap ;
+            font-size: 12px;
+            padding: 5px 3px;
+        }
+
+        .tableP div {
+            width: 33.333%;
+            padding: 0px 3px;
+        }
+
+        .tableP div p {
+            text-align: left;
+        }
+    </style>
 
     
     <?php 
