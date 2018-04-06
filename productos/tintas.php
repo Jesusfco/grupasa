@@ -37,14 +37,38 @@
         }
 
         table {
-             border-collapse: separate; 
+            border-collapse: collapse;
+            
+        }
+        .thead {
+            border-bottom: border: 3px solid #000000;
+            border-top: border: 3px solid #000000;
+        }
+        tbody{
+            vertical-align: initial;
         }
         tr {
             border-bottom: border: 3px solid #000000;
             border-top: border: 3px solid #000000;
-            padding: 10px 0; 
-            font-family: f1;
             
+            font-family: f1;
+            border-collapse: collapse;
+            
+        }
+
+        .black {
+            font-weight: 800;
+        }
+
+        td{
+            padding: 10px 2px; 
+            font-size: 12px;
+        }
+
+        .borde {
+            width: 100%;
+            height:1px;
+            background: black;
         }
     </style>
     <div class="productContainer">
@@ -57,12 +81,13 @@
 
             <div class="information">
                 <h2>TINTAS</h2>
-                <img src="../img/logoBote.png" width="35px">
+                <!-- <img src="../img/logoBote.png" width="35px"> -->
                 
 
             <table>
+                <div class="borde"></div>
                 <thead>
-                    <tr>
+                    <tr class="thead">
                         <th>Caltex</th>
                         <th>Policat</th>
                         <th>Uniplast</th>
@@ -70,9 +95,13 @@
                         <th>Vinilbrillante</th>
                         <th>Vinilmate</th>
                     </tr>   
-                </thead>   
+                </thead>  
+
+                
                 <tbody>
+                
                     <tr>
+                    <div class="borde"></div>
                         <td>
                             <ul>
                                 <li>Negro</li>
@@ -86,16 +115,15 @@
                                 <li>Blanco Flash</li>
                                 <li>Blanco Conc.</li>
                                 <li>&nbsp;</li>
-                                <li>Flourecentes</li>
-                                <li>&nbsp;</li>
+                                <li class="black">Flourecentes</li>
+                                
                                 <li>Rosa</li>
                                 <li>Amarillo</li>
                                 <li>Mandarina</li>
                                 <li>Naranja</li>
                                 <li>Verde</li>
                                 <li>&nbsp;</li>
-                                <li>Policromia</li>
-                                <li>&nbsp;</li>
+                                <li class="black">Policromía</li>                            
                                 <li>Negro</li>
                                 <li>Azul</li>
                                 <li>Magenta</li>
@@ -142,7 +170,7 @@
                                 <li>&nbsp;</li>
                                 <li>&nbsp;</li>
                                 <li>&nbsp;</li>
-                                <li>Policrom&iacute;a</li>
+                                <li class="black">Policromía</li>           
                                 <li>Negro</li>
                                 <li>Azul</li>
                                 <li>Rojo</li>
