@@ -31,7 +31,7 @@
 
                 <div>
                     <h5><i class="material-icons">mail</i>ESCRIBENOS </h5>
-                    <p> <a href="mailto:grupasa.ventas@gmail.com">ventas@grupasa.com.mx </a> </p>
+                    <p> <a href="mailto:ventas@grupasa.com.mx">ventas@grupasa.com.mx </a> </p>
                 </div>
             </div>
         </div>
