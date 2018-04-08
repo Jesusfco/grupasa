@@ -88,9 +88,7 @@
             height: 55px;
             background: black;
             margin-bottom:10px;
-            -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-            -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-            box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+          
 
         }
 
@@ -119,6 +117,7 @@
 
         #blanco {
             background: white;
+            border: 1px solid grey;
         }
 
         #verde1{

@@ -29,27 +29,43 @@
         </a>    
 
         <!-- SECCION MOVIL -->
-        <div class="productDiv mov" onclick="window.location.replace('productos/sellos.php')">
-            <img src="img/menu/sello.jpg">
-            <div id="marcos">SELLOS</div>
-        </div>
+        <a href="productos/gorras.php" class="productDiv mov">
+            <div class="imgBackground" style="background-image: url(img/menu/gorra.jpg)"></div>
+            <div class="square" id="marcos">GORRAS</div>
+        </a>
 
-        <div class="productDiv mov" onclick="window.location.replace('productos/vinil.php')">
-            <img src="img/menu/vinil.jpg">
-            <div id="raseros">VINILES</div>
-        </div>
+        <a href="productos/tintas-mas.php" class="productDiv mov">
+            <div class="imgBackground" style="background-image: url(img/menu/tintas-y-mas.jpg)"></div>
+            <div class="square" id="raseros">TINTAS Y MAS</div>
+        </a>
 
-        <div class="productDiv mov" onclick="window.location.replace('productos/encuadernacion.php')">
-            <img src="img/menu/encuadernacion.jpg">
-            <div id="raseros">ENCUADERNACIÓN</div>
-        </div>
+        <a href="productos/taza.php"  class="productDiv mov">
+            <div class="imgBackground" style="background-image: url(img/menu/taza.jpg)"></div>
+            <div class="square" id="tintas">TAZAS</div>
+        </a>  
+
+        <a class="productDiv mov" href="productos/sellos.php">
+            <div class="imgBackground" style="background-image: url(img/menu/sello.jpg)"></div>
+            <div class="square" id="marcos">SELLOS</div>
+        </a>
+
+        <a class="productDiv mov" href="productos/vinil.php">
+            <div class="imgBackground" style="background-image: url(img/menu/vinil.jpg)"></div>
+            <div class="square" id="raseros">VINILES</div>
+        </a>
+
+        <a class="productDiv mov" href="productos/encuadernacion.php">
+            <div class="imgBackground" style="background-image: url(img/menu/encuadernacion.jpg)"></div>
+            <div class="square" id="raseros">ENCUADERNACIÓN</div>
+        </a>
+
     </div>  
 
     
 
 </div>   
 
-<div class="products-content products3" >
+<div class="products-content products2 pc" >
         
         <a href="productos/gorras.php" class="productDiv s4">
             <div class="imgBackground" style="background-image: url(img/menu/gorra.jpg)"></div>
@@ -75,7 +91,7 @@
             
             <!-- SEGUNDA SECCION DE PRODUCTOS -->
  
-<div class="products-content2 products3">
+<div class="products-content products3 pc">
     
     <a class="productDiv s4 sello" href="productos/sellos.php">
         <div class="imgBackground" style="background-image: url(img/menu/sello.jpg)"></div>

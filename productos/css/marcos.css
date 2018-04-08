@@ -1,0 +1,7 @@
+.tableM {
+    display: flex
+}
+
+.tableM div {
+    margin-right: 10px;
+}

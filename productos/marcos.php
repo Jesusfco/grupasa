@@ -9,6 +9,7 @@
     <link href="../styles/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     
     <link href="css/sectionProduct.css" type="text/css" rel="stylesheet" media="screen,projection">    
+    <link href="css/marcos.css" type="text/css" rel="stylesheet" media="screen,projection">    
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -39,7 +40,7 @@
                 <h2>Marcos</h2>
                 <p>Marco de madera con malla amarilla</p>
                 <img src="../img/logoBote.png" width="35px">
-                <div>
+                <div class="tableM">
 
                     <div>
                         <h5>Hilos</h5>

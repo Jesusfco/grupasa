@@ -9,6 +9,7 @@
     <link href="../styles/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     
     <link href="css/sectionProduct.css" type="text/css" rel="stylesheet" media="screen,projection">    
+    <link href="css/encuadernacion.css" type="text/css" rel="stylesheet" media="screen,projection">    
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
