@@ -45,7 +45,7 @@
     opacity: 0;
 }
 
-.sliderText div {
+.sliderText .borderCard {
     border: 5px solid #000000;
     font-family: f3;
     font-size: 40px;
@@ -179,4 +179,76 @@ footer p {
     footer h2 {
         display: inline-block;
     }
+}
+
+
+/* GORRA SLIDER */
+
+.colorContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 180px;
+    border: none;
+    -webkit-box-shadow: 0px;
+    -moz-box-shadow: 0px;
+    box-shadow: 0px;
+    background: transparent;
+    border: unset;
+}
+
+.colorContainer div {
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: black;
+    margin-bottom: 10px;
+    border: unset;
+    box
+}
+
+#gris {
+    background: #1A1A34;
+}
+
+#azul {
+    background: #6ABFE9;
+}
+
+#verde {
+    background: #0D6A30;
+}
+
+#cafe {
+    background: #3F1216;
+}
+
+#rojo {
+    background: #C81A19;
+}
+
+#amarillo {
+    background: #EAC40B;
+}
+
+#blanco {
+    background: white;
+    border: 1px solid grey;
+}
+
+#verde1 {
+    background: #C6D309;
+}
+
+#verde2 {
+    background: #67B431;
+}
+
+#naranja {
+    background: #EF791E;
+}
+
+#rosado {
+    background: #E72B88;
 }

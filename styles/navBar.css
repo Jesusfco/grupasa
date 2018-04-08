@@ -53,28 +53,27 @@ nav .icon {
     display: none;
 }
 
-
-.linkProduct:hover .productsOption{
+.linkProduct:hover .productsOption {
     display: block !important;
 }
 
-.productsOption{
+.linkProduct span {
+    color: black;
+}
+
+.productsOption {
     display: none;
     position: absolute;
-    
     padding-top: 26px;
-    
-
 }
 
 .productsOption:hover {
     display: block;
 }
 
-.productsOption div{
+.productsOption div {
     color: white;
     background: #037ccfb8;
-    
     text-align: center;
 }
 
@@ -87,8 +86,7 @@ nav .icon {
 
 .productsOption div p:hover {
     background: white;
-    color: blue;
-
+    color: rgb(31, 104, 238);
 }
 
 @media screen and (max-width: 600px) {

@@ -1,7 +1,12 @@
 function smoothScroll(name) {
-    var posicion = $("#div-" + name).offset().top;
+    if (name == "products2" || name == "products3" || name == 'productos')
+        var posicion = $("#div-" + name).offset().top;
+    else {
+        var posicion = $("#div-" + name).offset().top - 80;
+    }
+
     $("html, body").animate({
-        scrollTop: posicion - 80
+        scrollTop: posicion
     }, 750);
 }
 

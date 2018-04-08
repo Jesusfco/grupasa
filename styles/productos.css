@@ -120,6 +120,11 @@
     }
     .products-content {
         height: auto;
+        padding-top: 10px;
+    }
+    .products-content .title {
+        position: inherit;
+        top: 0;
     }
     h3 {
         margin-left: 0;

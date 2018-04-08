@@ -5,9 +5,32 @@
                 <div class="img" style=" background-image: url(img/slider/1.jpg)">
 
                 <div class="sliderText">
-                        <div>GORRAS PARA <br> SUBLIMAR </div>
+                    <h3>GORRAS PARA</h3>
+                        <div class="borderCard">SUBLIMAR </div>
                         <!-- <div>$26.60</div> -->
                         <!-- <p> IVA incluido</p> -->
+                        <p>Colores disponibles</p>
+                        <div class="colorContainer">
+                        
+                            <div id="negro"></div>
+                            <div id="gris"></div>
+                            <div id="azul"></div>
+                            <div id="verde"></div>
+                            <div id="cafe"></div>
+                            <div id="rojo"></div>
+                            <div id="amarillo"></div>
+                            <div id="blanco"></div>
+                        </div>
+
+                        <p>Flourecentes</p>
+
+                        <div class="colorContainer">
+                        
+                            <div id="verde1"></div>
+                            <div id="verde2"></div>
+                            <div id="naranja"></div>
+                            <div id="rosado"></div>                    
+                        </div>
                     </div> 
                     
                 </div> 
@@ -19,7 +42,7 @@
 
                     <div class="sliderText">
                         <h3>PLAYERAS PARA<br> SUBLIMAR</h3>
-                        <div>PRODUCTO NUEVO</div>
+                        <div class="borderCard">PRODUCTO NUEVO</div>
                         <p> 100% Poliester <br> Tacto algodón <br> Cuello redondo</p>
                     </div>
 
@@ -31,7 +54,7 @@
                 <div class="img" style=" background-image: url(img/slider/3.jpg)">
                 
                     <div class="sliderText">
-                        <div>TAZAS PARA <br> SUBLIMAR </div>
+                        <div class="borderCard">TAZAS PARA <br> SUBLIMAR </div>
                         <!-- <div>$18.00</div> -->
                         <!-- <p> desde una pieza <br> IVA incluido</p> -->
                     </div> 
@@ -45,7 +68,7 @@
 
                     <div class="sliderText">
                         <h3>VINIL <br> TEXTIL</h3>
-                        <div>PRODUCTO NUEVO</div>
+                        <div class="borderCard">PRODUCTO NUEVO</div>
                         <p> Colores disponibles</p>
                     </div>
                     

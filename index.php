@@ -23,18 +23,18 @@
                 <img src="img/logo.jpg" onclick="scrollTop2()">
             </div>
 
-            <div class="menu-links">
-                <a>Promociones</a> <span>|</span>
+            <div class="menu-links" >
+                <a onclick="scrollTop2()">Promociones</a> <span>|</span>
                 
-                <a onclick="smoothScroll('productos')" class="linkProduct">
-                    <span>Productos</span>
+                <a  class="linkProduct">
+                    <span onclick="smoothScroll('productos')">Productos</span>
                     <div class="productsOption">
                         <div>
-                            <p>Serigrafía</p>
-                            <p>Sublimación</p>
-                            <p>Sellos</p>
-                            <p>Viniles</p>
-                            <p>Encuadernación</p>
+                            <p onclick="smoothScroll('productos')">Serigrafía</p>
+                            <p onclick="smoothScroll('products2')">Sublimación</p>
+                            <p onclick="smoothScroll('products3')">Sellos</p>
+                            <p onclick="smoothScroll('products3')">Viniles</p>
+                            <p onclick="smoothScroll('products3')">Encuadernación</p>
                         </div>    
                     </div>  
                 </a>  <span>|</span>
@@ -56,7 +56,7 @@
             <i class="material-icons">close</i>
         </div>
         <ul>
-            <li onclick="scrollMov('productos')">Inicio</li>
+            <li onclick="scrollTop2()">Inicio</li>
             <li onclick="scrollMov('productos')">Productos</li>
             <li onclick="scrollMov('equipos')">Equipo</li>
             <li onclick="scrollMov('quienes')">Quienes Somos</li>

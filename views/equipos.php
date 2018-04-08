@@ -7,20 +7,20 @@
 
         <div class="equipo-content">
 
-            <div class="equipo-card" onclick="window.location.replace('equipo/pulpos.php')">
+            <a class="equipo-card" href="equipo/pulpos.php">
                 <div class="img" style="background-image: url(img/equipos/pulpo.jpg)"></div> 
                 <div class="box">PULPOS</div>
-            </div>
+            </a>
 
-            <div class="equipo-card" onclick="window.location.replace('equipo/planchas.php')">
+            <a class="equipo-card" href="equipo/planchas.php">
                 <div class="img" style="background-image: url(img/equipos/plancha.jpg)"></div>
                 <div class="box">PLANCHAS</div>
-            </div>
+            </a>
 
-            <div class="equipo-card" onclick="window.location.replace('equipo/racks.php')">
+            <a class="equipo-card" href="equipo/racks.php">
                 <div class="img" style="background-image: url(img/equipos/rack.jpg)"></div>
                 <div class="box">RACKS</div>
-            </div>
+            </a>
 
         </div>
     </div>

@@ -1,7 +1,7 @@
-<div class="ourProducts" id="div-productos">
+<div class="ourProducts">
     
 
-    <div class="products-content">
+    <div  id="div-productos" class="products-content">
 
         <div class="title"  width=" 100%">
             <h3>NUESTROS PRODUCTOS</h3>
@@ -65,7 +65,7 @@
 
 </div>   
 
-<div class="products-content products2 pc" >
+<div id="div-products2" class="products-content products2 pc" >
         
         <a href="productos/gorras.php" class="productDiv s4">
             <div class="imgBackground" style="background-image: url(img/menu/gorra.jpg)"></div>
@@ -91,7 +91,7 @@
             
             <!-- SEGUNDA SECCION DE PRODUCTOS -->
  
-<div class="products-content products3 pc">
+<div id="div-products3" class="products-content products3 pc">
     
     <a class="productDiv s4 sello" href="productos/sellos.php">
         <div class="imgBackground" style="background-image: url(img/menu/sello.jpg)"></div>

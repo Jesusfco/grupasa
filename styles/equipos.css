@@ -8,6 +8,7 @@
     display: block;
     width: 33.333%;
     overflow: hidden;
+    color: black;
 }
 
 .equipo-card:hover .img {
