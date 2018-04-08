@@ -19,3 +19,8 @@ nav i {
 ul {
     list-style-type: none;
 }
+
+.equipoContainer {
+    padding-top: 80px;
+    height: 100vh;
+}

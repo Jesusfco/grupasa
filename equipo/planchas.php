@@ -9,7 +9,8 @@
     <link href="../styles/style.css" type="text/css" rel="stylesheet" media="screen,projection">
     
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">    
-    
+    <link href="css/planchas.css" type="text/css" rel="stylesheet" media="screen,projection">    
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -27,90 +28,57 @@
         </div>
     </nav>
 
-    <style>
-        .equipoContainer {
-            display: flex;
-            width: 100%;
-            height: 100vh; 
-            flex-wrap: wrap;
-        }
-
-        .equipoContainer .s6 {
-            width: 50%;
-        }
-        .equipoContainer .s4 {
-            width: 33.333%
-        }
-
-        .piece {
-            height: 50%;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-            border: 1px black;
-
-        }
-        .equipoContainer div img {
-            width: 100%;
-            display: block;
-            position: absolute;
-        }
-
-        .nameEquip{
-            position: absolute;
-            right: 50%;
-            transform: translateX(50%);
-            bottom: 50px;
-            background:             
-
-        }
-
-        .nameEquip h3, .nameEquip p {
-            text-shadow: 2px 2px 4px white;
-        }
-    </style>
+    
     <div class="equipoContainer">
 
        
+        <div class="planch1 borderRight">
 
-       <div class="piece s4">
-           <img src="../img/pulpos/1.jpg">
-            <div class="nameEquip">
-               <h3>PULPO 1 CON 1</h3>
-               <p>Pulpo de 1 tinta <br> con 1 estación portátil <br> de metal </p>
+            <div class="piece borderBottom">
+                <div class="imgBackground" style="background-image: url(../img/planchas/1.jpg)"></div>
+                    <div class="nameEquip">
+                        <h3>PLANCHA CON TEFLÓN</h3>
+                        <p>40 cm x 50 cm. </p>
+                    </div>
             </div>
-       </div>
 
-       <div class="piece s4">
-            <img src="../img/pulpos/2.jpg">
-            <div class="nameEquip">
-               <h3>PULPO 4 CON 1</h3>
-               <p>Pulpo de 4 tintas <br> con 1 estación fija con <br>banco tradicional</p>
+            <div class="piece">
+                <div class="imgBackground" style="background-image: url(../img/planchas/2.jpg)"></div>
+                <div class="nameEquip">
+                    <h3>PLANCA CON NEOPRENO</h3>
+                    <p>40 cm x 50 cm. </p>
+                </div>
             </div>
-       </div>
 
-       <div class="piece s4">
-           <img src="../img/pulpos/3.jpg">
-            <div class="nameEquip">
-               <h3>PULPO 6 CON 1</h3>
-               <p>Pulpo de 6 tintas <br> con 1 estación fija con <br>banco tradicional</p>
-           </div>
-       </div>
+        </div>
 
-       <div class="piece s6">
-           <img src="../img/pulpos/4.jpg">
-           <div class="nameEquip">
-                <h3>PULPO 6 CON 2</h3>
-                <p>Pulpo de 6 tintas <br> con 2 estaciones fijas con <br> banco tradicional</p>
+        <div class="planch2">
+
+            <div class="piece borderBottom">
+                <div class="imgBackground" style="background-image: url(../img/planchas/3.jpg)"></div>
+                    <div class="nameEquip">
+                    <h3>PLANCHA PARA GORRAS</h3>
+                    
+                    </div>
             </div>
-       </div>
 
-       <div class="piece s6">
-           <img src="../img/pulpos/5.jpg">
-           <div class="nameEquip">
-                <h3>PULPO 6 CON 2</h3>
-                <p>Pulpo de 6 tintas <br> con 2 estaciones rotativas con <br> banco tradicional</p>
+            <div class="piece borderBottom ">
+                <div class="imgBackground" style="background-image: url(../img/planchas/4.jpg)"></div>
+                <div class="nameEquip">
+                    <h3>PLANCHA DIGITAL <BR> PARA SUBLIMACIÓN</h3>
+                    <p>40 cm x 50 cm. </p>
+                </div>
             </div>
+
+            <div class="piece">
+                <div class="imgBackground" style="background-image: url(../img/planchas/5.jpg)"></div>
+                <div class="nameEquip">
+                    <h3>PLANCHA PARA TAZAS</h3>
+                    <p>Plancha para tazas de 13 Oz.</p>
+                </div>
+            </div>
+
+      
        </div>
 
     </div>

@@ -1,0 +1,49 @@
+.equipoContainer {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.equipoContainer .s6 {
+    width: 50%;
+}
+
+.equipoContainer .s4 {
+    width: 33.333%
+}
+
+.piece {
+    height: 50%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border: 1px black;
+}
+
+.piece .imgBackground {
+    width: 100%;
+    display: block;
+    position: absolute;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: .5s;
+}
+
+.piece:hover .imgBackground {
+    transform: scale(1.1);
+    opacity: .4;
+}
+
+.nameEquip {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 50px;
+}
+
+.nameEquip h3,
+.nameEquip p {
+    text-shadow: 2px 2px 4px white;
+}

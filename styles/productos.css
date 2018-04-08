@@ -35,12 +35,14 @@
     height: 100%;
     display: block;
     background-size: cover;
+    background-position: center;
     z-index: 1;
     transition: .4s;
 }
 
 .productDiv:hover .imgBackground {
     transform: scale(1.1);
+    opacity: .6;
 }
 
 .productDiv .square {
