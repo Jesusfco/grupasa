@@ -55,7 +55,7 @@
         <div class="planch2">
 
             <div class="piece borderBottom">
-                <div class="imgBackground" style="background-image: url(../img/planchas/3.jpg)"></div>
+                <img src="../img/planchas/3.jpg">
                     <div class="nameEquip">
                     <h3>PLANCHA PARA GORRAS</h3>
                     
@@ -63,15 +63,18 @@
             </div>
 
             <div class="piece borderBottom ">
-                <div class="imgBackground" style="background-image: url(../img/planchas/4.jpg)"></div>
+                <img src="../img/planchas/4.jpg">
+                
                 <div class="nameEquip">
                     <h3>PLANCHA DIGITAL <BR> PARA SUBLIMACIÓN</h3>
                     <p>40 cm x 50 cm. </p>
                 </div>
+
             </div>
 
             <div class="piece">
-                <div class="imgBackground" style="background-image: url(../img/planchas/5.jpg)"></div>
+                <img src="../img/planchas/5.jpg">
+                
                 <div class="nameEquip">
                     <h3>PLANCHA PARA TAZAS</h3>
                     <p>Plancha para tazas de 13 Oz.</p>

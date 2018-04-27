@@ -88,7 +88,7 @@
             <img src="../img/racks/2.jpg">
             <div class="nameEquip">
                <h3>RACKS DE 50 CHAROLAS</h3>
-               <p>40 cm x 50 cm.</p>
+               <p>50 cm x 60 cm.</p>
             </div>
        </div>
 

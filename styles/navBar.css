@@ -53,18 +53,24 @@ nav .icon {
     display: none;
 }
 
+.linkProduct {
+    padding: 0 5px;
+}
+
 .linkProduct:hover .productsOption {
     display: block !important;
 }
 
 .linkProduct span {
     color: black;
+    font-family: f1;
+    cursor: pointer;
 }
 
 .productsOption {
     display: none;
     position: absolute;
-    padding-top: 26px;
+    padding-top: 24px;
 }
 
 .productsOption:hover {
@@ -84,9 +90,14 @@ nav .icon {
     width: 100%;
 }
 
+.productsOption div a {
+    color: white !important;
+    text-decoration: none;
+}
+
 .productsOption div p:hover {
     background: white;
-    color: rgb(31, 104, 238);
+    color: rgb(31, 104, 238) !important;
 }
 
 @media screen and (max-width: 600px) {

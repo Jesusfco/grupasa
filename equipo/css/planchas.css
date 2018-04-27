@@ -22,6 +22,10 @@
     height: 33.33%;
 }
 
+.piece img {
+    height: 100%;
+}
+
 .piece {
     width: 100%;
     display: block;
